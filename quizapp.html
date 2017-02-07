@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="headers">
+<h1>QUIZ APP</h1>
+    </div>
+    <br>
+<div id="container">
+<div id="question">
+    <span id="q1">JavaScript Test:</span>
+    <span id="settime"><p id="ctimes">05:00</p></span>
+</div>
+
+<br>
+<div id="centerBox">
+    <div id="fletf">
+<h4 id="que">Q1: Why so JavaScript and Java have similar name?</h4>
+
+<ul>
+<li><input type="radio" id="opt1" name="radio" class="radio" onclick="enablenxt();"><span id="op1" class="op">JavaScript is a stripped-down version of Java"</span></li>
+<li><input type="radio" id="opt2" name="radio" class="radio" onclick="enablenxt();" checked><span id="op2" class="op">"JavaScript's syntax is loosely based on Java's"</span></li>
+<li><input type="radio" id="opt3" name="radio" class="radio" onclick="enablenxt();"><span id="op3" class="op">They both originated on the island of Java"</span></li>
+<li><input type="radio" id="opt4" name="radio" class="radio" onclick="enablenxt();"><span id="op4" class="op">None of the above</span></li>
+
+</ul>
+</div>
+</div>
+    <input type="button" id="nextbtn" value="Next" onclick="next();">
+
+
+<div id="scorediv"><br><br>
+    <h5 id="passdiv"></h5><br><br>
+    <span class="rightques"> correct Ans </span> <span id="rightques">15</span><br><br><br>
+    <span class="scrper">Score</span> <span id="scrper">100% </span>
+    <br><br><button id="tryagainbtn"><a href="index.html">Try Again</a></Ans></button>
+       </div>
+</div>
+<footer>
+    
+</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
